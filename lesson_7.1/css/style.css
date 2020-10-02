@@ -1,0 +1,150 @@
+@font-face {
+	font-family: "Arial";
+	src: url("../fonts/ArialMT.woff2") format("woff2"), url("../fonts/ArialMT.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Times New Roman";
+	src: url("../fonts/TimesNewRomanPSMT.woff2") format("woff2"), url("../fonts/TimesNewRomanPSMT.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.wrapper {
+	background-color: #e8e8e8;
+}
+.wrap {
+	background: url("../img/ellips_1.png") 145px 130px no-repeat;
+	text-align: center;
+}
+.inner {
+	max-width: 820px;
+	margin: 0 auto;
+	padding: 0px 10px 0px 10px;
+}
+.h1 {
+	font-family: "Arial", sans-serif;
+	color: rgba(39, 61, 70, 0.6);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0px 0px 25px 0px;
+}
+.header__body {
+	padding: 165px 0px 0px 0px;
+}
+.text_top {
+	margin: 0px 0px 80px 0px;
+	font-family: "Times New Roman";
+	font-size: 36px;
+	color: #273d46;
+	padding: 0px 55px;
+	line-height: 50px;
+}
+.foto {
+	max-width: 840px;
+	border: 10px solid #fff;
+	margin: 0px 0px 90px 0px;
+}
+.foto img {
+	width: 100%;
+}
+.text1,
+.text2 {
+	margin: 0px 0px 60px 0px;
+	font-family: "Times New Roman";
+	font-size: 24px;
+	color: rgba(39, 61, 70, 0.8);
+	padding: 0px 40px;
+	line-height: 40px;
+	text-align: left;
+}
+.menu {
+	text-align: left;
+	margin: 0px 0px 60px 0px;
+	padding: 0px 40px;
+}
+.list li {
+	background: url("../img/check_icon.png") 0 8px no-repeat;
+	padding: 0px 0px 0px 34px;
+}
+.link {
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	line-height: 36px;
+}
+.link1,
+.link3 {
+	color: #273d46;
+}
+.link2 {
+	color: #80b7b3;
+}
+.link4 {
+	color: #dddede;
+	text-decoration: line-through;
+	text-shadow: 0px 1px #dddede;
+}
+.btn__link {
+	margin: 0px 0px 137px 0px;
+	display: inline-block;
+	line-height: 44px;
+	background-color: #80b7b3;
+	border-radius: 25px;
+	padding: 0px 20px 0px 20px;
+	font-family: "Arial", sans-serif;
+	text-transform: uppercase;
+	color: #ddebe9;
+	letter-spacing: 2px;
+}
+.btn__link span {
+	background: #80b7b3 url(../img/Shape_2.png) right 50% no-repeat;
+	display: inline-block;
+	padding: 0px 40px 0px 0px;
+}
